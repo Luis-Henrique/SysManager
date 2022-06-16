@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <ApplicationIcon />
+    <StartupObject />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Contracts\Products\Response\" />
+    <Folder Include="Contracts\Users\Response\" />
+    <Folder Include="Data\MySql\Entities\" />
+    <Folder Include="Data\MySql\Repositories\" />
+    <Folder Include="Errors\" />
+    <Folder Include="Helpers\" />
+    <Folder Include="Validators\" />
+    <Folder Include="Services\" />
+  </ItemGroup>
+
+</Project>
