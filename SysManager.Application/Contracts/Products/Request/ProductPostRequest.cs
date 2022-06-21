@@ -4,7 +4,7 @@ using System.Text;
 
 namespace SysManager.Application.Contracts.Products.Request
 {
-    public class ProductPutRequest
+    public class ProductPostRequest
     {
         public string ProductCode { get; set; }
 
@@ -21,7 +21,5 @@ namespace SysManager.Application.Contracts.Products.Request
         public decimal Percentage { get; set; }
 
         public decimal Price { get; set; }
-
-        public bool Active { get; set; }
     }
 }
